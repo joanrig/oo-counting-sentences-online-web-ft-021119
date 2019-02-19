@@ -30,10 +30,10 @@ class String
 
   def count_sentences
     length = self.split(/[.!?]/).length
-    if length == 0
-      puts "zero"
-    else
+    if length > 0
       return length
+    else
+      return 0
     end
     #binding.pry
   end
