@@ -33,8 +33,8 @@ class String
     if length == 0
       puts "zero"
     else
-      length
+      return length
     end
-    binding.pry
+    #binding.pry
   end
 end
