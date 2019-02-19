@@ -29,6 +29,12 @@ class String
   end
 
   def count_sentences
-
+    length = self.split(/[.!?]/).length
+    if length == 0
+      puts "zero"
+    else
+      length
+    end
+    binding.pry
   end
 end
