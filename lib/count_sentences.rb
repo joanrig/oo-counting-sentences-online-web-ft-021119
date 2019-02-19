@@ -29,7 +29,7 @@ class String
   end
 
   def count_sentences
-    length = self.split(/[.!?]/).length
+    length = self.split(/[.\s ||!\s || ?\s]/).length
     if length > 0
       return length
     else
